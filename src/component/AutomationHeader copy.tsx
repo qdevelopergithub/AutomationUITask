@@ -1,9 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // ✅ import useNavigate
+import { useNavigate } from "react-router-dom";
 
 const AutomationHeader = () => {
-  const navigate = useNavigate(); // ✅ initialize navigate
-
+ const navigate = useNavigate();
+ // Initialize useNavigate hook
   const handleNewAutomation = () => {
     navigate("/create-new-automation"); // ✅ navigate to the route
   };
